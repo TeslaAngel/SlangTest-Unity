@@ -182,7 +182,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 33201b839e1c3d9488a4c27ce33562b9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -465,6 +465,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: brz
       objectReference: {fileID: 0}
+    - target: {fileID: 8449996119470504636, guid: 03093212eb0e6464d9149e9d3fee65b2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33201b839e1c3d9488a4c27ce33562b9, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
